@@ -3,6 +3,11 @@ S3Url
 
 A small command line tool to generate signed S3 url for the EU WEST 1 region
 
+Install
+-------
+
+    npm install s3url
+
 Usage
 -------
 
