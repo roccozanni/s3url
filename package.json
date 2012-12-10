@@ -8,5 +8,10 @@
     },
     "dependencies": {
         "optimist":  ">=0.3.5"
-    }
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/roccozanni/s3url.git"
+    },
+    "keywords": ["s3", "aws"]
 }
