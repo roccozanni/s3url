@@ -1,10 +1,10 @@
 {
-    "name": "jsontool",
-    "description": "a 'json' command for massaging JSON on the command line",
-    "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
+    "name": "s3url",
+    "description": "a 's3url' command for generating s3 signed urls",
+    "author": "Rocco Zanni <rocco.zanni@gmail.com>",
     "version": "0.0.1",
     "bin": {
-        "json": "./lib/jsontool.js"
+        "s3url": "./bin/s3url.js"
     },
     "dependencies": {
         "optimist":  ">=0.3.5"
