@@ -31,11 +31,11 @@ You can supply authentication credentials in two ways:
 * command line parameters
 * environment variables
 
-In the first option, you can pass the parameters --key and --secret to the command line and provide credentials. For example:
+In the first way, you can pass the parameters --key and --secret to the command line and provide credentials. For example:
 
     s3url --key THISISTHEKEY --secret THISISTHESECRET resource_url
 
-In the second options, just export two environment variables containing the key and the secret:
+In the second way, you can export two environment variables containing the key and the secret:
 
     export S3URL_KEY="THISISTHEKEY"
     export S3URL_SECRET="THISISTHESECRET"
